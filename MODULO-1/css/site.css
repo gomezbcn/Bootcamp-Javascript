@@ -6,7 +6,6 @@ body {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0 32px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
@@ -15,7 +14,7 @@ body {
     margin: auto;
     width: 50%;
   }
-  /** diff */
+  
   .img {
     text-align: center;
     margin: 24px 0 12px 0;
@@ -26,7 +25,19 @@ body {
     width: 20%;
     border-radius: 50%;
   }
-  /** diff */
-  .data {
+  
+  .data,
+  .actions {
     padding: 16px;
+  }
+  
+  button {
+    background-color: #c7b93e;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
