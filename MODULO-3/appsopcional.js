@@ -44,7 +44,7 @@ console.log(hijos);
 
 anual = neto.bruto+retencion+hijos;
 
-console.log(anual)
+console.log(anual);
 
 
 console.log(anual/neto.pagas);
