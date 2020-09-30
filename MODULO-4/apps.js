@@ -26,7 +26,7 @@ var showResultdivid = () => document.getElementById("result").value = dividNumbe
 document.getElementById("sum").addEventListener("click", showResultsum);
 document.getElementById("rest").addEventListener("click", showResultrest);
 document.getElementById("mult").addEventListener("click", showResultmult);
-document.getElementById("divid").addEventListener("click", showResultdivid)
+document.getElementById("divid").addEventListener("click", showResultdivid);
 
 
 
